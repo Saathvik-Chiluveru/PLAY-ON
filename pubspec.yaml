@@ -1,0 +1,162 @@
+gname: edmania
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  animated_splash_screen: ^1.3.0
+  cloud_firestore: ^5.4.4
+  cupertino_icons: ^1.0.2
+  dots_indicator: ^3.0.0
+  file_picker: ^8.1.2
+  file_selector: ^1.0.3
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.3
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.10
+  flutter_time_picker_spinner: ^2.0.0
+  fluttertoast: ^8.2.4
+  get: ^4.6.6
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  qr_flutter: ^4.1.0
+  share_apps: ^0.3.0
+  share_whatsapp: ^1.0.2
+  time_picker_spinner: ^1.0.0
+  time_pickerr: ^1.0.6
+  url_launcher: ^6.2.4
+  win32: ^5.5.5
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_svg: ^2.0.9
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/hack1.svg
+    - assets/hack2.svg
+    - assets/hack3.svg
+    - assets/logo.png
+    - assets/university.png
+    - assets/comment-alt.png
+    - assets/user.png
+    - assets/userprofile.png
+    - assets/hackathon.png
+    - assets/cricket.png
+    - assets/webinar.png
+    - assets/byp.png
+    - assets/Basketball.jpg
+    - assets/boxcricket.jpg
+    - assets/cricket.jpg
+    - assets/Football.jpg
+    - assets/tennis.webp
+    - assets/profile.webp
+    - assets/twitter1.png
+    - assets/google.jpg
+    - assets/facebook.jpg
+    - assets/cricket2.png
+    - assets/basketball2.png
+    - assets/markyourplay.webp
+    - assets/archary.jpg
+    - assets/athletictrack.jpg
+    - assets/taekwondo.jpg
+    - assets/snooker.jpg
+    - assets/surfing.jpg
+    - assets/Non-transperent ver.png
+    - assets/batminton.jpg
+    - assets/cycling.jpg
+    - assets/diving.jpg
+    - assets/gaelicgames.jpg
+    - assets/golf.jpg
+    - assets/hockey.jpg
+    - assets/horseracing.jpg
+    - assets/netball.jpg
+    - assets/rugby.jpg
+    - assets/squash.jpg
+    - assets/tabletennis.jpeg
+    - assets/vollyball.jpg
+    - assets/boxing.jpeg
+    - assets/basketball3.jpg
+    - assets/bowls.jpg
+    - assets/originallogo.png
+    - assets/canoeing.jpg
+    - assets/curling.jpg
+    - assets/equestrian.webp
+    - assets/fencing.jpg
+    - assets/formula1.jpg
+    - assets/gymnastics.jpg
+    - assets/icehockey.jpg
+    - assets/judo.jpg
+    - assets/modernpentathlon.jpg
+    - assets/swimming.jpg
+    - assets/karate.jpg
+    
+
+
+    
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
